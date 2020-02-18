@@ -7,7 +7,7 @@ export default class StartScreen extends Component {
     <View style={styles.container}>
       <Text style = {styles.title}>Contact List</Text>
       <Text style = {styles.desc}>A React Native Exercise from Brian Nebres</Text>
-      <Text style = {styles.click} onPress={() => Actions.lists()}>Tap here to view</Text>
+      <Text style = {styles.click} onPress={() => Actions.name()}>Tap here to view</Text>
     </View>
   );
 }

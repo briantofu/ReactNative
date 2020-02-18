@@ -27,13 +27,11 @@ export default class ContactList extends Component {
     render(){
         const {email, lastName, firstName} = this.state;
         return(
-           
-                <View style = {styles.container}>
-
-                   <Text>First Name:{firstName}</Text>
-                   <Text>Last Name:{lastName}</Text>
-                   <Text>Email:{email}</Text>
-                </View>
+             <View style = {styles.container}>
+               <Text>First Name:{firstName}</Text>
+               <Text>Last Name:{lastName}</Text>
+               <Text>Email:{email}</Text>
+             </View>
         );
     }
 }
